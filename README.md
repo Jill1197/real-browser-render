@@ -17,6 +17,8 @@
 Bash
 sudo apt update && sudo apt install tor netcat-openbsd -y
 
+or sudo apt install tor torsocks -y
+
 2. ตั้งค่า Tor Control Port
 เพื่อให้สคริปต์ของเราสั่งเปลี่ยน IP ได้ ต้องเปิดพอร์ตควบคุมของ Tor ก่อน:
 
